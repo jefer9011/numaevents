@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Eventos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+<ion-grid fixed>
+  <ion-row>
+    <ion-col size="12" size-xs="12" size-sm="6" size-md="4" size-lg="3" *ngFor="let item of [].constructor(50)">
+      <ion-card color="secondary" >
+        <ion-card-header>
+          <ion-card-subtitle>Categorias</ion-card-subtitle>
+          <ion-card-title>Evento</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur itaque doloribus maxime recusandae soluta et enim aperiam ipsam eos dignissimos reprehenderit, quasi amet eveniet commodi.
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  <!--
+<ion-card color="secondary" *ngFor="let item of [].constructor(15)">
+  <ion-card-header>
+    <ion-card-subtitle>Mi título</ion-card-subtitle>
+    <ion-card-title>Mi subtítulo</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Mi contenido
+  </ion-card-content>
+</ion-card>
+-->
+</ion-content>
